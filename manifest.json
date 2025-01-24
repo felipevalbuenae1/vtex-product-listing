@@ -1,18 +1,24 @@
 {
-  "name": "admin-ui-example",
-  "vendor": "vtex",
-  "version": "0.0.1",
-  "title": "Admin-ui example app",
-  "description": "",
-  "mustUpdateAt": "2022-08-28",
-  "scripts": {
-    "postreleasy": "vtex publish"
-  },
-  "dependencies": {},
+  "vendor": "mi-vendor",
+  "name": "mi-app",
+  "version": "0.1.0",
+  "title": "Listado de Productos",
+  "description": "Módulo de listado de productos para VTEX Admin",
   "builders": {
     "react": "3.x",
-    "admin": "0.x",
-    "messages": "1.x"
+    "messages": "1.x",
+    "admin": "0.x"
   },
-  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.admin-pages": "1.x"
+  },
+  "policies": [
+    {
+      "name": "admin:access",
+      "attrs": {
+        "access": "full"
+      }
+    }
+  ]
 }

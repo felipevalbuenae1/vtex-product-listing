@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Producto A",
+      "price": 100.000,
+      "image": "https://placehold.co/50",
+      "stock": "Disponible"
+    },
+    {
+      "name": "Producto B",
+      "price": 200.000,
+      "image": "https://placehold.co/50",
+      "stock": "Agotado"
+    }
+]  

@@ -6,5 +6,8 @@
   "admin.app.example-detail": {
     "component": "AdminExampleDetail",
     "path": "/admin/app/example/:id"
+  },
+  "/admin/app/product-list": {
+    "component": "ProductListPage"
   }
 }
