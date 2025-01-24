@@ -26,7 +26,7 @@ Esta documentación describe el paso a paso para implementar un módulo de lista
    ```
 3. Instala las dependencias del proyecto:
    ```bash
-   yarn install
+   npm install
    ```
 
 ---
@@ -185,9 +185,9 @@ Asegúrate de que el archivo `manifest.json` incluya las configuraciones necesar
 Si deseas descargar el proyecto con todos los pasos anteriores ya realizados, puedes clonarlo desde el siguiente repositorio:
 
 ```bash
-git clone <URL-DE-TU-REPOSITORIO>
-cd <NOMBRE-DEL-REPOSITORIO>
-yarn install
+git clone https://github.com/felipevalbuenae1/vtex-product-listing.git
+cd vtex-product-listing
+npm install
 ```
 
 Este repositorio contiene la estructura, configuración y archivos listos para ser utilizados.
